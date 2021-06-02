@@ -1,0 +1,97 @@
+* {
+    font-family: Arial;
+    font-size: 18px;
+}
+header, footer {
+    background-color: lawngreen;
+    margin: auto;
+    padding: 20px;
+}
+h1, #head, h2, h3, h4 {
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    margin: 10px;
+}
+h4 {
+    font-size: 30px;
+    margin: 10px;
+}
+#nav1, #nav2 {
+    list-style-type: none;
+    padding: 8px 20px;
+    margin: 0px;
+}
+#nav1 {
+    background-color: orange;
+}
+#nav2 {
+    background-color: gold;
+}
+.nav1, .nav2 {
+    display: inline;
+}
+.acc {
+    float: right;
+    position: relative;
+    bottom: 6px;
+}
+.nav1 a{
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav1 a:link, .nav1 a:visited, .nav2 a:link, .nav2 a:visited {
+    color: rgba(0, 0, 0, 0.700);
+}
+.nav1 a:hover {
+    background-color: orangered;
+}
+#searchbar {
+    width: 25%;
+    height: 25px;
+}
+.nav2 a {
+    padding: 8px 8%;
+    text-decoration: none;
+}
+.nav2 a:hover {
+    background-color:  goldenrod;
+}
+.about, .numberedList p {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-indent: 1em;
+    font-weight: normal;
+    text-align: justify;
+}
+.numberedList {
+    font-weight: bolder;
+}
+table {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: center;
+    padding: 5px 15px;
+    border-bottom: 1px solid gray;
+}
+tr:hover td{
+    background-color: rgb(0, 200, 0);
+}
+#social {
+    text-align: center;
+}
+#social a img{
+    width: 2em;
+    height: 2em;
+}
+#copyright {
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+}
