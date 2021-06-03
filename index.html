@@ -28,48 +28,49 @@
     </header>
     <h2>Top 3 most popular products</h2>
     <ol>
-        <li>iPhone 8 Plus
-            <img src="images/iphone8/iPhone8Plus.jpg" style="float:right;width:200px;height:200px;">
-            <p style="padding:30px;">
+        <li class="popular"><span>iPhone 8 Plus</span>
+            <img src="images/iphone8/iPhone8Plus.jpg">
+            <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum tellus ut ipsum 
                 tempor, ac ullamcorper velit tincidunt. Nunc in nibh orci. Sed tempus elit arcu, 
                 eget aliquet lacus elementum vitae. Fusce mi dui, bibendum non porttitor vel, 
                 accumsan non mauris. Donec in velit a justo finibus pretium nec eu.
             </p>
-            <a href="iphone8.html">>>> See more</a>
+            <a class="more" href="iphone8.html">>>> See more</a>
         </li>
-        <li>iPhone 7
-            <img src="images/iphone7/iphone7.jpg" style="float:right;width:200px;height:200px;">
-            <p style="padding:30px;">
+        <li class="popular"><span>iPhone 7</span>
+            <img src="images/iphone7/iphone7.jpg">
+            <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum tellus ut ipsum 
                 tempor, ac ullamcorper velit tincidunt. Nunc in nibh orci. Sed tempus elit arcu, 
                 eget aliquet lacus elementum vitae. Fusce mi dui, bibendum non porttitor vel, 
                 accumsan non mauris. Donec in velit a justo finibus pretium nec eu.
             </p>
-            <a href="iphone7.html">>>> See more</a>
+            <a class="more" href="iphone7.html">>>> See more</a>
         </li>
-        <li>iPhone 6S Plus
-            <img src="images/iphone6/iphone-6s-plus.jpg" style="float:right;width:200px;height:200px;">
-            <p style="padding:30px;">
+        <li class="popular"><span>iPhone 6S Plus</span>
+            <img src="images/iphone6/iphone-6s-plus.jpg">
+            <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum tellus ut ipsum 
                 tempor, ac ullamcorper velit tincidunt. Nunc in nibh orci. Sed tempus elit arcu, 
                 eget aliquet lacus elementum vitae. Fusce mi dui, bibendum non porttitor vel, 
                 accumsan non mauris. Donec in velit a justo finibus pretium nec eu.
             </p>
-            <a href="iphone6.html">>>> See more</a>
+            <a class="more" href="iphone6.html">>>> See more</a>
         </li>
     </ol>
+    <hr>
     <div>
         <h2>Today's featured product</h2>
         <h3>iPhone 5S</h3>
-        <img src="images/iphone5/iphone-5s.jpg" style="float:left;width:200px;height:200px;">
-        <p style="padding:50px;">
+        <img id="today" src="images/iphone5/iphone-5s.jpg">
+        <p id="todayP">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacinia, neque sed bibendum 
             convallis, diam ante scelerisque ligula, et hendrerit augue turpis ac odio. Proin vestibulum 
             arcu aliquet neque gravida, a tincidunt neque eleifend. Sed in efficitur lorem. Fusce venenatis 
             erat a eros tristique laoreet. Nulla facilisi. Orci varius natoque.
         </p>
-        <a href="iphone5.html">>>> See more</a>
+        <a class="more" href="iphone5.html">>>> See more</a>
     </div>
     <br>
     <footer>
@@ -100,6 +101,9 @@
                 <td><i>Mon - Fri:</i> 8:00 - 18:00; <i>Sat:</i> 10:00 - 15:00</td>
             </tr>
         </table>
+        <h4>Subscribe to newsletter</h4>
+        <input type="email" id="subscribe" name="subscribe" maxlength="50" placeholder="Your email address...">
+        <input type="submit" id="subButton" value="SUBSCRIBE">
         <div id="social">
             <a href="https://www.facebook.com/"><img src="images/icons/facebook-icon.png"></a>
             <a href="https://twitter.com/"><img src="images/icons/twitter-icon.png"></a>
