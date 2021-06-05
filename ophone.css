@@ -4,6 +4,9 @@
     letter-spacing: 1px;
     word-spacing: 1px;
 }
+body {
+    background-image: url("images/cream_texture.jpg");
+}
 header, footer {
     background-color: lawngreen;
     margin: auto;
