@@ -1,6 +1,8 @@
 * {
-    font-family: Arial;
+    font-family: 'Bebas Neue', Arial;
     font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
 header, footer {
     background-color: lawngreen;
@@ -18,7 +20,7 @@ h2 {
     font-size: 30px;
 }
 h3 {
-    font-size: 20px;
+    font-size: 25px;
 }
 h4 {
     font-size: 30px;
@@ -208,7 +210,28 @@ ol {
 .more:link, .more:visited {
     color: black;
 }
-.more:hover {
+.more:hover, .ip button:hover  {
     color: white;
-    background-color: green;
+    background-color: rgb(0, 200, 0);
+    cursor: pointer;
+}
+.ip {
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 500px;
+    text-align: center;
+}
+.ip img {
+    width: 30%;
+    height: 375px;
+}
+.ip button {
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: lawngreen;
+    box-sizing: border-box;
+}
+.ip div {
+    padding: 10px;
 }
